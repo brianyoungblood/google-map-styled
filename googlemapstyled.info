@@ -1,0 +1,5 @@
+name = Google Map Styled -  A custom Google layer
+description = Using the Google Style wizard you can add a custom Google map layer styled the way you want.
+core = 6.x
+dependencies[] = openlayers
+
