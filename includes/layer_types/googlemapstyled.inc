@@ -54,14 +54,14 @@ class openlayers_layer_type_googlemapstyled extends openlayers_layer_type {
         '#description' => t('Server address of where the tiles are hosted. For example, http://mt0.google.com/vt/'),
         '#title' => t('Base URL'),
         '#default_value' => isset($this->data['base_url']) ?
-          $this->data['base_url'] : ''
+          $this->data['base_url'] : 'http://mt0.google.com/vt/'
       ),
       'base_url2' => array(
         '#type' => 'textfield',
         '#title' => t('Base URL 2'),
         '#description' => t('Optional second location. Ideal for speeding up browser downloads. For example, http://mt1.google.com/vt/'),
         '#default_value' => isset($this->data['base_url2']) ?
-          $this->data['base_url2'] : ''
+          $this->data['base_url2'] : 'http://mt1.google.com/vt/'
       ),
         'params' => array(
         'isBaseLayer' => array(
@@ -81,9 +81,14 @@ class openlayers_layer_type_googlemapstyled extends openlayers_layer_type {
        
         //not used, but here to satisfy the sanity check.
        'srs' => array(
-          '#type' => 'hidden',
-          '#value' => '900913'
-      ),
+          '#type' => 'select',
+          '#title' => t('Projection'),
+          '#options' => array(
+            'EPSG:900913' => '900913',
+              ),
+          '#default_value' => isset($this->data['options']['srs']) ?
+            $this->data['options']['srs'] : '900913'
+        ),
            ),
       'layer_type' => array(
         '#type' => 'hidden',
