@@ -1,4 +1,4 @@
-1) Install, drop this folder in your module directory (ie sites/all or sites/default) and enable it as you would any other module. This module requires <a href="http://drupal.org/project/openlayers">OpenLayers</a> module.
+1) Install, drop this folder in your module directory (ie sites/all/modules or sites/default/modules) and enable it as you would any other module. This module requires <a href="http://drupal.org/project/openlayers">OpenLayers</a> module.
 
 2) Style a map using <a href="http://gmaps-samples-v3.googlecode.com/svn/trunk/styledmaps/wizard/index.html">Google Maps API Styled Map Wizard</a>
 
