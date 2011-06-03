@@ -12,11 +12,11 @@ If you have a tile url like this one:
 
 Your base path would be:
 
-	http://mt1.google.com/vt/</code>
+	http://mt1.google.com/vt/
 
 Google tile style:
 
-	v=apt.116&hl=en-US&src=apiv3&s=G&lyrs=r&apistyle=s.t:33|p.v:off&apistyle=s.t:49|s.e:l|p.v:on|p.l:50|p.s:24,s.t:5|p.v:off,s.t:6|p.v:off,s.t:1|p.v:off,s.t:5|p.v:off,s.t:2|p.v:off</code>
+	v=apt.116&hl=en-US&src=apiv3&s=G&lyrs=r&apistyle=s.t:33|p.v:off&apistyle=s.t:49|s.e:l|p.v:on|p.l:50|p.s:24,s.t:5|p.v:off,s.t:6|p.v:off,s.t:1|p.v:off,s.t:5|p.v:off,s.t:2|p.v:off
 
 
 
